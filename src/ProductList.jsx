@@ -6,8 +6,6 @@ import { useState,useEffect } from "react";
 function ProductList(){
   const [products,setProducts]=useState([]);
  
-  const[search,setSearch]=useState();
-  const[loading,setLoading]=useState(false)
  
   const getProduct=async()=>{
     try{

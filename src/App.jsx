@@ -2,8 +2,7 @@
 import './App.css'
 import Header from './Header'
 import Navbar from './Navbar'
-import ProductList from './productList'
-// import Cart from './Cart'
+import ProductList from './ProductList'
 import Footer from "./Footer"
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
       <Header/>
       <Navbar/>
       <ProductList/>
-      {/* <Cart/> */}
+    
       <Footer/>
     </>
   )
